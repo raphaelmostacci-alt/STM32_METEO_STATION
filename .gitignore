@@ -22,6 +22,16 @@ RemoteSystemsTempFiles/
 # Le fichier .ioc EST versionné (source de vérité de la config).
 # Les fichiers générés ci-dessous NE sont PAS versionnés :
 Middlewares/
+.mxproject
+
+# ─── Fichiers CubeIDE / debug ────────────────────────────────────────────────
+*.launch
+
+# ─── Docs internes (non pertinents pour le repo public) ──────────────────────
+docs/NOTICE_UTILISATION.md
+docs/PRESENTATION_OUTLINE.md
+docs/REQUIREMENTS_CHECKLIST.md
+docs/build_deck.py
 
 # ─── OS ─────────────────────────────────────────────────────────────────────
 .DS_Store
