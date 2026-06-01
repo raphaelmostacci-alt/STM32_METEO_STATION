@@ -1,0 +1,35 @@
+# ─── Sorties de compilation ────────────────────────────────────────────────
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.cyclo
+*.d
+*.o
+
+# ─── STM32CubeIDE / Eclipse ────────────────────────────────────────────────
+.metadata/
+.settings/
+.cproject
+.project
+RemoteSystemsTempFiles/
+
+# ─── STM32CubeMX ────────────────────────────────────────────────────────────
+# Le fichier .ioc EST versionné (source de vérité de la config).
+# Les fichiers générés ci-dessous NE sont PAS versionnés :
+Middlewares/
+
+# ─── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Éditeurs ────────────────────────────────────────────────────────────────
+*.swp
+*.swo
+*~
+.vscode/
